@@ -1,0 +1,50 @@
+---
+title       : Faithful Geyser presentation
+subtitle    : 
+author      : Ger Inberg
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Introduction
+
+1.Introduction to Failthful Geyser data
+
+---
+
+## Data set
+
+```{r}
+summary(faithful$eruptions)
+summary(faithful$waiting)
+```
+
+---
+
+## Data set plot
+
+```{r echo=FALSE}
+  x    <- faithful[, 2]  # Old Faithful Geyser data
+  bins <- seq(min(x), max(x), length.out = 10)
+  
+  # draw the histogram with the specified number of bins
+  hist(x, breaks = bins, col = 'darkgray', border = 'white')
+```
+
+---
+
+## Slide 4
+
+TODO
+
+---
+
+## Slide 5
+
+TODO
+
