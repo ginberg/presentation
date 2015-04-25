@@ -46,13 +46,9 @@ summary(faithful$waiting)
 
 ---
 
-## Slide 4
-
-TODO
-
----
-
 ## Slide 5
 
 TODO
+
+
 
