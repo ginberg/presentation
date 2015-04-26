@@ -1,5 +1,5 @@
 ---
-title       : Faithful Geyser presentation
+title       : Old Faithful presentation
 subtitle    : 
 author      : Ger Inberg
 job         : 
@@ -11,13 +11,21 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Introduction
+## Introduction to Old Failthful
 
-1.Introduction to Failthful Geyser data
+Old Faithful is a cone geyser located in Wyoming, in Yellowstone National Park in the United States. Old Faithful was named in 1870 during the Washburn-Langford-Doane Expedition and was the first geyser in the park to receive a name. It is one of the most predictable geographical features on Earth, erupting almost every 63 minutes. The geyser, as well as the nearby Old Faithful Inn, is part of the Old Faithful Historic District.
+
+![alt text](old-faithful.jpg)
 
 ---
 
 ## Data set
+
+The chosen dataset contains the waiting time between eruptions and the duration of the eruption for the Old Faithful geyser.
+It is stored as a data frame with 272 observations on 2 variables.
+
+* eruptions  numeric  Eruption time in mins
+* waiting    numeric  Waiting time to next eruption
 
 
 ```r
@@ -40,15 +48,16 @@ summary(faithful$waiting)
 
 ---
 
-## Data set plot
+## Scatter plot waiting time vs eruption duration
 
 ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
 
 ---
 
-## Slide 5
+## Eruption duration
 
-TODO
+![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3.png) 
+
 
 
 

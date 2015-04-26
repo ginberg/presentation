@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Faithful Geyser presentation</title>
+  <title>Old Faithful presentation</title>
   <meta charset="utf-8">
-  <meta name="description" content="Faithful Geyser presentation">
+  <meta name="description" content="Old Faithful presentation">
   <meta name="author" content="Ger Inberg">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -32,7 +32,7 @@
     <!-- LOGO SLIDE -->
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
-    <h1>Faithful Geyser presentation</h1>
+    <h1>Old Faithful presentation</h1>
     <h2></h2>
     <p>Ger Inberg<br/></p>
   </hgroup>
@@ -43,10 +43,12 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Introduction</h2>
+    <h2>Introduction to Old Failthful</h2>
   </hgroup>
   <article data-timings="">
-    <p>1.Introduction to Failthful Geyser data</p>
+    <p>Old Faithful is a cone geyser located in Wyoming, in Yellowstone National Park in the United States. Old Faithful was named in 1870 during the Washburn-Langford-Doane Expedition and was the first geyser in the park to receive a name. It is one of the most predictable geographical features on Earth, erupting almost every 63 minutes. The geyser, as well as the nearby Old Faithful Inn, is part of the Old Faithful Historic District.</p>
+
+<p><img src="old-faithful.jpg" alt="alt text"></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -57,7 +59,15 @@
     <h2>Data set</h2>
   </hgroup>
   <article data-timings="">
-    <pre><code class="r">summary(faithful$eruptions)
+    <p>The chosen dataset contains the waiting time between eruptions and the duration of the eruption for the Old Faithful geyser.
+It is stored as a data frame with 272 observations on 2 variables.</p>
+
+<ul>
+<li>eruptions  numeric  Eruption time in mins</li>
+<li>waiting    numeric  Waiting time to next eruption</li>
+</ul>
+
+<pre><code class="r">summary(faithful$eruptions)
 </code></pre>
 
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
@@ -77,7 +87,7 @@
 
 <slide class="" id="slide-3" style="background:;">
   <hgroup>
-    <h2>Data set plot</h2>
+    <h2>Scatter plot waiting time vs eruption duration</h2>
   </hgroup>
   <article data-timings="">
     <p><img src="assets/fig/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
@@ -88,10 +98,10 @@
 
 <slide class="" id="slide-4" style="background:;">
   <hgroup>
-    <h2>Slide 5</h2>
+    <h2>Eruption duration</h2>
   </hgroup>
   <article data-timings="">
-    <p>TODO</p>
+    <p><img src="assets/fig/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3"> </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -103,7 +113,7 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Introduction'>
+        data-slide=1 title='Introduction to Old Failthful'>
          1
       </a>
     </li>
@@ -115,13 +125,13 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Data set plot'>
+        data-slide=3 title='Scatter plot waiting time vs eruption duration'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Slide 5'>
+        data-slide=4 title='Eruption duration'>
          4
       </a>
     </li>
