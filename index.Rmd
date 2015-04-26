@@ -17,6 +17,8 @@ Old Faithful is a cone geyser located in Wyoming, in Yellowstone National Park i
 
 ![alt text](old-faithful.jpg)
 
+Open the related shiny [app](https://ginberg.shinyapps.io/geyser)
+
 ---
 
 ## Data set
@@ -38,10 +40,12 @@ summary(faithful$waiting)
 
 ```{r echo=FALSE}
 duration = faithful$eruptions      # the eruption durations 
-waiting = faithful$waiting         # the waiting interval 
+waiting = faithful$waiting         # the waiting interval
 plot(waiting, duration,            # plot the variables 
   ylab="Eruption duration (min)",        # y−axis label 
   xlab="Time waited (min)")              # x−axis label
+reg1 <- lm(waiting~duration)
+abline(reg1, col="red")
 ```
 
 ---

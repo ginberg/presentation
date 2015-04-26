@@ -17,6 +17,8 @@ Old Faithful is a cone geyser located in Wyoming, in Yellowstone National Park i
 
 ![alt text](old-faithful.jpg)
 
+Open the related shiny [app](https://ginberg.shinyapps.io/geyser)
+
 ---
 
 ## Data set
