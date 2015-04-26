@@ -1,6 +1,6 @@
 ---
 title       : Old Faithful presentation
-subtitle    : 
+subtitle    : Developing Data Products Coursera
 author      : Ger Inberg
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -13,7 +13,7 @@ knit        : slidify::knit2slides
 
 ## Introduction to Old Failthful
 
-Old Faithful is a cone geyser located in Wyoming, in Yellowstone National Park in the United States. Old Faithful was named in 1870 during the Washburn-Langford-Doane Expedition and was the first geyser in the park to receive a name. It is one of the most predictable geographical features on Earth, erupting almost every 63 minutes. The geyser, as well as the nearby Old Faithful Inn, is part of the Old Faithful Historic District.
+Old Faithful is a cone geyser located in Wyoming, in Yellowstone National Park in the United States. Old Faithful was named in 1870 during the Washburn-Langford-Doane Expedition and was the first geyser in the park to receive a name. It is one of the most predictable geographical features on Earth, erupting almost every 63 minutes. 
 
 ![alt text](old-faithful.jpg)
 
